@@ -35,6 +35,18 @@ https://github.com/user-attachments/assets/7f46b736-edec-4828-b809-4be780a3e5b1
 ## Acknowledgements
 
 This project is based on the [llama.cpp](https://github.com/ggerganov/llama.cpp) framework. We would like to thank all the authors for their contributions to the open-source community. Also, bitnet.cpp's kernels are built on top of the Lookup Table methodologies pioneered in [T-MAC](https://github.com/microsoft/T-MAC/). For inference of general low-bit LLMs beyond ternary models, we recommend using T-MAC.
+
+## Contributing
+
+We welcome contributions to BitNet-OG! This repository is configured for optimal GitHub Copilot experience to help you contribute effectively.
+
+- 📖 **[Contributing Guidelines](CONTRIBUTING.md)** - Learn how to contribute
+- 🤖 **[GitHub Copilot Setup](.github/COPILOT_SETUP.md)** - Get started with Copilot
+- 📝 **[Issue Templates](.github/ISSUE_TEMPLATE/)** - Report bugs or request features
+- 🔧 **[Project Context](.github/copilot-instructions.md)** - Understanding the codebase
+
+Please read our [Code of Conduct](CODE_OF_CONDUCT.md) and [Security Policy](SECURITY.md) before contributing.
+
 ## Official Models
 <table>
     </tr>
