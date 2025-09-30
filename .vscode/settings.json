@@ -1,0 +1,60 @@
+{
+  // GitHub Copilot settings
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true,
+    "python": true,
+    "cpp": true,
+    "c": true,
+    "cmake": true
+  },
+  "github.copilot.advanced": {},
+  
+  // Editor settings for better Copilot experience
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  
+  // Python settings
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.formatting.provider": "black",
+  "python.analysis.typeCheckingMode": "basic",
+  
+  // C++ settings
+  "C_Cpp.clang_format_style": "file",
+  "C_Cpp.intelliSenseEngine": "default",
+  
+  // File associations
+  "files.associations": {
+    "*.h": "cpp",
+    "*.cpp": "cpp",
+    "*.c": "c",
+    "CMakeLists.txt": "cmake",
+    "*.cmake": "cmake"
+  },
+  
+  // Exclude patterns for better performance
+  "files.exclude": {
+    "**/.git": true,
+    "**/__pycache__": true,
+    "**/build": true,
+    "**/logs": true,
+    "**/models": true,
+    "**/*.gguf": true
+  },
+  
+  "search.exclude": {
+    "**/build": true,
+    "**/logs": true,
+    "**/models": true,
+    "**/*.gguf": true,
+    "**/3rdparty": true
+  }
+}
