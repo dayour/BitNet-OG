@@ -29,7 +29,9 @@
 .idea/
 .swiftpm
 .vs/
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
 nppBackup
 
 # Models

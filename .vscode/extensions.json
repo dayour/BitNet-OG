@@ -1,0 +1,24 @@
+{
+  "recommendations": [
+    // GitHub Copilot
+    "github.copilot",
+    "github.copilot-chat",
+    
+    // Python development
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    
+    // C++ development
+    "ms-vscode.cpptools",
+    "ms-vscode.cmake-tools",
+    
+    // Git integration
+    "eamodio.gitlens",
+    
+    // Markdown
+    "yzhang.markdown-all-in-one",
+    
+    // General utilities
+    "editorconfig.editorconfig"
+  ]
+}
